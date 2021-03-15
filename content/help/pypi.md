@@ -10,7 +10,7 @@ menu: ['help']
 
 ## 临时使用
 
-```
+```bash
 pip install -i https://mirror.bjtu.edu.cn/pypi/web/simple/ some-package
 ```
 
@@ -20,7 +20,7 @@ pip install -i https://mirror.bjtu.edu.cn/pypi/web/simple/ some-package
 
 修改 `~/.config/pip/pip.conf` (Linux), `%APPDATA%\pip\pip.ini` (Windows 10) 或 `$HOME/Library/Application Support/pip/pip.conf` (macOS) (没有就创建一个)， 修改 `index-url` 至镜像，例如
 
-```
+```conf
 [global]
 index-url = https://mirror.bjtu.edu.cn/pypi/web/simple/
 ```

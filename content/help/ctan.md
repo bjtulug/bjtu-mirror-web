@@ -12,7 +12,7 @@ menu: ['help']
 
 在命令行中执行
 
-```
+```bash
 tlmgr option repository https://mirror.bjtu.edu.cn/ctan/systems/texlive/tlnet
 ```
 
@@ -20,7 +20,7 @@ tlmgr option repository https://mirror.bjtu.edu.cn/ctan/systems/texlive/tlnet
 
 如果只需要临时切换，可以用如下命令：
 
-```
+```bash
 tlmgr update --all --repository https://mirror.bjtu.edu.cn/ctan/systems/texlive/tlnet
 ```
 

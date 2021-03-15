@@ -22,7 +22,7 @@ FreeBSD中pkg源分为系统级和用户级两个源.不建议直接修改/etc/p
 
 写入以下内容:
 
-```
+```conf
 bjtu: {
   url: "pkg+http://freebsd-pkg.mirror.bjtulug.org/${ABI}/quarterly",
   mirror_type: "srv",

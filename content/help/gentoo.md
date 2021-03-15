@@ -16,7 +16,7 @@ menu: ['help']
 
 一个完整的 `/etc/portage/make.conf` 文件样例如下（来自一位不愿意透露姓名的热心 Gentoo 用户张三同志）（由于 Gentoo Linux 存在较高配置灵活性，切勿直接复制此文件！）：
 
-```
+```conf
 # These settings were set by the catalyst build script that automatically
 # built this stage.
 # Please consult /usr/share/portage/config/make.conf.example for a more
