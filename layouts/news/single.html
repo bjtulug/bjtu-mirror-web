@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div class="row flex-xl-nowrap">
+    <main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <span
+        >Posted on {{ .Date.Format "2006-01-02" }} by {{ .Params.author }}</span
+      >
+      {{ partial "main/headline-hash.html" .Content }}
+      {{ if .Site.Params.editPage -}}
+        {{ partial "main/edit-page.html" . }}
+      {{ end -}}
+      {{ partial "main/docs-navigation.html" . }}
+    </main>
+  </div>
+{{ end }}

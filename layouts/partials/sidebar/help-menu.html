@@ -1,0 +1,15 @@
+{{ $currentPage := . -}}
+<h3><a class="docs-link" href="/help">帮助</a></h3>
+<ul class="list-unstyled">
+  {{ range .Site.Menus.help -}}
+    {{- $active := or ($currentPage.IsMenuCurrent "help" .) ($currentPage.HasMenuCurrent "help" .) -}}
+    {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
+    <li>
+      <a
+        class="docs-link{{ if $active }} active{{ end }}"
+        href="{{ .URL | absURL }}"
+        >{{ .Name }}</a
+      >
+    </li>
+  {{ end -}}
+</ul>

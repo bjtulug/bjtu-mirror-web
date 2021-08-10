@@ -1,26 +1,26 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "BJTU Mirror"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "北京交通大学自由与开源软件镜像站"
+description = "BJTU free and open source software mirror is funded by Beijing Jiaotong University Computing Center, it aims at providing mirror service for GNU/Linux users in and outside of BJTU."
 
 ## Open Graph + Twitter Cards
 images = ["doks.png"]
-twitterSite = "henkverlinde"
-twitterCreator = "henkverlinde"
-facebookAuthor = "verlinde.henk"
-facebookPublisher = "verlinde.henk"
-ogLocale = "en_US"
+# twitterSite = "henkverlinde"
+# twitterCreator = "henkverlinde"
+# facebookAuthor = "verlinde.henk"
+# facebookPublisher = "verlinde.henk"
+ogLocale = "zh_CN"
 
 ## JSON-LD
 schemaType = "Organization"
 schemaLogo = "logo-doks.png"
-schemaTwitter = "https://twitter.com/henkverlinde"
-schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaGitHub = "https://github.com/h-enk"
-schemaSection = "blog"
+# schemaTwitter = "https://twitter.com/henkverlinde"
+# schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaGitHub = "https://github.com/bjtulug"
+# schemaSection = "blog"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
