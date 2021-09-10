@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Mirror Example",
+    "status": 2,
+    "message": "Sync succeed",
+    "exitcode": 0,
+    "date": "2021-03-15 16:21:01",
+    "schedule": "2021-03-15 20:48:00",
+    "upstream": "rsync.example.org::alpine//"
+  }
+]
